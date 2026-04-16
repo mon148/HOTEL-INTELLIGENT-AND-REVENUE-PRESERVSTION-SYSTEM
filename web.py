@@ -22,22 +22,31 @@ model, scaler = load_model()
 # Initialize the "Memory" (Cookie Manager)
 cookie_manager = stx.CookieManager()
 
+
 def manage_access():
-    # Checking if the user has a verification cookie in their browser
+    # Initialize session state if it doesn't exist
+    if "authenticated" not in st.session_state:
+        st.session_state["authenticated"] = False
+
+   # Check the Cookie and the Session State
     auth_cookie = cookie_manager.get(cookie="hotel_access_token")
 
-    if auth_cookie == "verified_user_2026":
+    if auth_cookie == "verified_user_2026" or st.session_state["authenticated"]:
         return True
 
-    #If no cookie, show the login screen
+    # If neither is true, show login
     st.title("🔐 Secure Intelligence Portal")
     password = st.text_input("Enter Access Code", type="password")
     remember = st.checkbox("Keep me logged in for 7 days")
 
     if st.button("Authenticate"):
-        if password == "NigeriaAI2026":
+        if password == "admin":
+            st.session_state["authenticated"] = True
+
             max_age = 604800 if remember else None
             cookie_manager.set("hotel_access_token", "verified_user_2026", max_age=max_age)
+
+            # auto while cookies are being stored immediate refresh
             st.rerun()
         else:
             st.error("Access Denied.")
