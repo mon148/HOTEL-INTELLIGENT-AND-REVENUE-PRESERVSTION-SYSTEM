@@ -3,8 +3,8 @@
 **STACK:** Python| Scikit-learn | plotly | Streamlit
 **APP LINK:** this is the app link https://hotel-intelligent-and-revenue-preservstion-systemgit-fxrinmfgj.streamlit.app/
 **REPOSITORY LINK:** https://github.com/mon148/HOTEL-INTELLIGENT-AND-REVENUE-PRESERVSTION-SYSTEM
-**Important Note:** To log in to the AI dashboard interface, you should enter this default password. The passward will be personalized in the future update: **password == "NigeriaAI2026"**
-Remember, the default password is **NigeriaAI2026**
+**Important Note:** To log in to the AI dashboard interface, you should enter this default password. The passward will be personalized in the future update: **password == "admin"**
+Remember, the default password is **admin**
 
 **PROBLEM STATEMENT:**
 Hotel cancellation cost the hospitality industry billions of lost in Average Daily Rate (ADR). So, this project is not just a dashboard to showcase any expertice but to ensure proactive revenue protection.
