@@ -1,8 +1,9 @@
 **HOTEL INTELLIGENT AND REVENUE PRESERVSTION SYSTEM**
 **ARCHITECT:** GOD'S LIGHT
 **STACK:** Python| Scikit-learn | plotly | Streamlit
-**APP LINK:** 
+**APP LINK:** WILL BE READY SOON. IN <= 3 days it should be ready
 **REPOSITORY LINK:** https://github.com/mon148/HOTEL-INTELLIGENT-AND-REVENUE-PRESERVSTION-SYSTEM
+**Important Note:** To log in to the AI dashboard interface, you should enter this default password. The passward will be personalized in the future update: **password == "NigeriaAI2026"**
 
 **PROBLEM STATEMENT:**
 Hotel cancellation cost the hospitality industry billions of lost in Average Daily Rate (ADR). So, this project is not just a dashboard to showcase any expertice but to ensure proactive revenue protection.
@@ -33,7 +34,7 @@ Key Metrics Performance:
 ###**Visual Output:** Renders a high-fidelity Plotly Gauge for non-technical stakeholders to interpret risk in seconds.
 
 ###**INSTALLATION AND LOCAL DEPLOYMENT**
-Clone The Repository: git clone https://github.com/your-repo/hotel-risk-ai.git
+**Clone The Repository:** git clone https://github.com/mon148/HOTEL-INTELLIGENT-AND-REVENUE-PRESERVSTION-SYSTEM
 
 ###**Intialize the environment:** Note that i ahve included a batch which would automatically load and install all requirements provided your system doesn't flag it as a threat since some system do: python -m venv .venv
 .\.venv\Scripts\activate
