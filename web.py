@@ -7,15 +7,13 @@ import plotly.graph_objects as go
 
 print(sys.executable)
 
-# Getting the path and loading the saved pkl
-# base_path = os.path.dirname(os.path.abspath(__file__))
-# model_path = os.path.join(base_path, 'rf_model.pkl')
-# scaler_path = os.path.join(base_path, 'scaler.pkl')
+Getting the path and loading the saved pkl
+base_path = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(base_dir, 'rf_model.pkl')
+scaler_path = os.path.join(base_path, 'scaler.pkl')
 @st.cache_resource
 def load_model():
-   model = joblib.load ('rf_model.pkl') 
-   scaler = joblib.load ('scaler.pkl')
-   return model, scaler
+   return joblib.load (model_path), joblib.load (scaler_path)
 model, scaler = load_model()
 
 
