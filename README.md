@@ -1,25 +1,26 @@
 ## HOTEL INTELLIGENT AND REVENUE PRESERVATION SYSTEM  
 **ARCHITECT:** GOD'S LIGHT  
-**STACK:** Python| Scikit-learn | plotly | Streamlit  
-**APP LINK:** this is the app link https://bqbegzyaq2df5bnyzshbva.streamlit.app/ 
-**To click the app link directly without any need for copying the link, [CLICK ME](https://bqbegzyaq2df5bnyzshbva.streamlit.app/)**
-**REPOSITORY LINK:** https://github.com/mon148/HOTEL-INTELLIGENT-AND-REVENUE-PRESERVATION-SYSTEM  
-**To click the repository link directly without any need for copying the link, [CLICK ME](https://github.com/mon148/HOTEL-INTELLIGENT-AND-REVENUE-PRESERVSTION-SYSTEM)**
-**Important Note:** To log in to the AI dashboard interface, you should enter this default password. The passward will be personalized in the future update: **password == "admin"**
-**Remember, the default password is:** **admin**
-
-**PROBLEM STATEMENT:**  
-Hotel cancellation cost the hospitality industry billions of lost in Average Daily Rate (ADR). So, this project is not just a dashboard to showcase any expertice but to ensure proactive revenue protection.
-Key Metrics Performance:  
+**STACK:** Python| Scikit-learn | plotly | Streamlit    
+**APP LINK:** this is the app link https://bqbegzyaq2df5bnyzshbva.streamlit.app/   
+**To click the app link directly without any need for copying the link, [CLICK ME](https://bqbegzyaq2df5bnyzshbva.streamlit.app/)**  
+**REPOSITORY LINK:** https://github.com/mon148/HOTEL-INTELLIGENT-AND-REVENUE-PRESERVATION-SYSTEM    
+**To click the repository link directly without any need for copying the link, [CLICK ME](https://github.com/mon148/HOTEL-INTELLIGENT-AND-REVENUE-PRESERVSTION-SYSTEM)**  
+**Important Note:** To log in to the AI dashboard interface, you should enter this default password. The passward will be personalized in the future update: **password == "admin"**  
+**Remember, the default password is:** **admin**  
+  
+**PROBLEM STATEMENT:**   
+Hotel cancellation cost the hospitality industry billions of lost in Average Daily Rate (ADR). So, this project is not just a dashboard to showcase any expertice but to ensure proactive revenue protection.  
+  
+**Key Metrics Performance:**  
 **62% ADR Sensitivity:** The model identified high-price to being the primary catalyst behind cancellation  
 **Predictive Accuracy:** Tuned to identify cancellations before they happen, allowing managers to overbook or re-market rooms strategically.  
 **Real-Time Simulation:** Integrated Gauge charts allow "What-If" analysis for dynamic pricing strategy.  
-
-**KEY FEATURES**
-**AI-Powered Risk Assessment:** Uses a Random Forest Classifier to evaluate more than 13 booking features instantly.  
-**Live Testing Environment:** Interactive sliders that allow managers to test how the alteration of the ADR or Lead Time impacts the probability of a guest showing up or cancelling the booking.  
+  
+**KEY FEATURES**  
+**AI-Powered Risk Assessment:** Uses a Random Forest Classifier to evaluate more than 13 booking features instantly.    
+**Live Testing Environment:** Interactive sliders that allow managers to test how the alteration of the ADR or Lead Time impacts the probability of a guest showing up or cancelling the booking.    
 **Business Protection/Security:** Built-in session-state authentication engine to protect proprietary hotel data. 
-**Cloud-Native Architecture:** Deployed on a serverless infrastructure for 99.9% uptime and global accessibility.
+**Cloud-Native Architecture:** Deployed on a serverless infrastructure for 99.9% uptime and global accessibility.  
    
 '**SYSTEM STRUCTURE**
 **Data Acquisition:** Collects real-time booking parameters (Lead time, ADR, Special requests).  
